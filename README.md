@@ -4,6 +4,7 @@
 irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_hideactivate.ps1 | iex
 ```
 ### 2 Activate windows/office
+![image](https://github.com/user-attachments/assets/09e8c1e6-c8ed-481f-97e4-9a9982f25349)
 ```ps1
 irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_microsoftactivate.cmd -OutFile "$env:Temp\wis_microsoftactivate.cmd"; cmd /c "$env:Temp\wis_microsoftactivate.cmd"
 ```
