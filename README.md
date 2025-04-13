@@ -8,9 +8,7 @@ irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_
 ```ps1
 irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_microsoftactivate.cmd -OutFile "$env:Temp\wis_microsoftactivate.cmd"; cmd /c "$env:Temp\wis_microsoftactivate.cmd"
 ```
-```ps1
-irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_microsoftactivate.ps1 | iex
-```
+or
 ```ps1
 irm https://get.activated.win | iex
 ```
