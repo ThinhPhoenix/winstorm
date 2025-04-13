@@ -5,5 +5,5 @@ irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_
 ```
 ### 2 Activate windows/office
 ```ps1
-irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_microsoftactivate.cmd | iex
+irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_microsoftactivate.cmd -OutFile "$env:Temp\wis_microsoftactivate.cmd"; cmd /c "$env:Temp\wis_microsoftactivate.cmd"
 ```
