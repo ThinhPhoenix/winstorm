@@ -3,7 +3,7 @@ set "startupFolder=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 (
     echo @echo off
     echo color 0A
-    echo echo 🌟 Have a great day! %date%
+    echo echo Have a great day! %date%
     echo timeout /t 2 /nobreak >nul
     echo taskkill /F /IM explorer.exe
     echo timeout /t 1 /nobreak >nul
@@ -12,9 +12,9 @@ set "startupFolder=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
 ) > "%startupFolder%\removewindowatermark.bat"
 
 echo color 02
-echo ✅ Done... 
-echo 🌀 Restart your PC to apply the change.
-echo 📄 NewScript.bat created in:
+echo Done... 
+echo Restart your PC to apply the change.
+echo NewScript.bat created in:
 echo %startupFolder%
 timeout /t 5 /nobreak  
 exit
