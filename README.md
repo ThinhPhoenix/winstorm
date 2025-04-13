@@ -3,3 +3,7 @@
 ```ps1
 irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_hideactivate.ps1 | iex
 ```
+### 2 Activate windows/office
+```ps1
+irm https://raw.githubusercontent.com/ThinhPhoenix/winstorm/refs/heads/main/wis_microsoftactivate.cmd | iex
+```
